@@ -18,20 +18,4 @@ scrape_configs:
       job: varlogs
       __path__: /var/log/*log
       
-# Comandos usuarios
-- job_name: history
-  static_configs:
-  - targets:
-      - localhost
-    labels:
-      job: history
-      __path__: /home_server/*/.bash_history
 
-# Comandos Root
-- job_name: history_root
-  static_configs:
-  - targets:
-      - localhost
-    labels:
-      job: history
-      __path__: /root_user/.bash_history
