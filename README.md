@@ -1,1 +1,1 @@
-# logging
+# Repo para logging de sistema
